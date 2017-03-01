@@ -20,6 +20,7 @@ Your mission is to write a program that will display the line `L` of this series
 The line `L` of the sequence. Each element of the sequence is separated by a space.
 ###Constraints
 0 < `R` < 100
+
 0 < `L` ≤ 25
 ###Example
 	Input
