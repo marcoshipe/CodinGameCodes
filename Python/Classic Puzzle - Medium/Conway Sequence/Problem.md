@@ -3,13 +3,7 @@ You mission is to print a specific line of the Conway sequence.
 ##Rules
 Warning! This sequence can make you ill. The reasoning is simple but unusual: Read a line aloud whilst looking at the line above and you will notice that each line (except the first) makes ​​an inventory of the previous line.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 1
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2 1
-&nbsp;&nbsp;&nbsp;1 2 1 1
-1 1 1 2 2 1
-3 1 2 2 1 1
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...
+![Example](https://github.com/marcoshipe/CodinGameCodes/blob/master/Python/Classic Puzzle - Medium/Conway Sequence/_images/img_1.png) 
 
 Line 3 shows `2 1` because the line 2 contains *two* `1`, one after the other.
 Line 4 displays `1 2 1 1` because the line 3 contains *one* `2` followed by *one* `1`.
