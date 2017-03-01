@@ -6,7 +6,9 @@ Warning! This sequence can make you ill. The reasoning is simple but unusual: Re
 ![Example](https://github.com/marcoshipe/CodinGameCodes/blob/master/Python/Classic Puzzle - Medium/Conway Sequence/_images/img_1.png) 
 
 Line 3 shows `2 1` because the line 2 contains *two* `1`, one after the other.
+
 Line 4 displays `1 2 1 1` because the line 3 contains *one* `2` followed by *one* `1`.
+
 Line 5 displays `1 1 1 2 2 1` because the line 4 contains *one* `1` followed by *one* `2` followed by *two* `1`.
 
 This sequence refers to a technique used to encode ranges in order to compress identical values ​​without losing any information. This type of method is used, amongst others, to compress images.
@@ -15,7 +17,8 @@ Your mission is to write a program that will display the line `L` of this series
 ##Game Input
 ###Input
 **Line 1:** The original number `R` of the sequence.
-**Line 2: **The line `L` to display. The index of the first line is `1`.
+
+**Line 2:** The line `L` to display. The index of the first line is `1`.
 ###Output
 The line `L` of the sequence. Each element of the sequence is separated by a space.
 ###Constraints
