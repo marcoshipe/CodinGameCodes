@@ -3,7 +3,7 @@ You mission is to print a specific line of the Conway sequence.
 ## Rules
 Warning! This sequence can make you ill. The reasoning is simple but unusual: Read a line aloud whilst looking at the line above and you will notice that each line (except the first) makes ​​an inventory of the previous line.
 
-![Example](/_images/img_1.png) 
+![Example](_images/img_1.png) 
 
 Line 3 shows `2 1` because the line 2 contains *two* `1`, one after the other.
 
