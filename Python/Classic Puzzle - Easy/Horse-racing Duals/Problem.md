@@ -7,7 +7,7 @@ Write a program which, using a given number of strengths, identifies the two clo
 ### Input:
 **Line 1:** Number `N` of horses
 
-**The `N` following lines:** the strength `Pi` of each horse. `Pi` is an integer.
+**The `N` following lines:** the strength <code>P<sub>i</sub></code> of each horse. <code>P<sub>i</sub></code> is an integer.
 
 ### Output:
 The difference `D` between the two closest strengths. `D` is an integer greater than or equal to 0.
@@ -15,16 +15,16 @@ The difference `D` between the two closest strengths. `D` is an integer greater 
 ### Constraints:
 1 < `N`  < 100000
 
-0 < `Pi` ≤ 10000000
+0 < <code>P<sub>i</sub></code> ≤ 10000000
 
 ### Example:
-    Input:
-        3
-        5
-        8
-        9
+#### Input:
+	3
+	5
+	8
+	9
 
-    Output:
-        1
+#### Output:
+	1
 
 Link: https://www.codingame.com/ide/puzzle/horse-racing-duals
