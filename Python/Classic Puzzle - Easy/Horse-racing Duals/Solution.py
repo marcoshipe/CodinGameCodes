@@ -11,9 +11,9 @@ def main():
         horses_strengths.append(int(input()))
 
     horses_strengths.sort()
-    min_dist = abs(horses_strengths[0] - horses_strengths[1])
-    for i in range(1, len(horses_strengths)):
-        act_dist = abs(horses_strengths[i] - horses_strengths[i - 1])
+    min_dist = horses_strengths[1] - horses_strengths[0]
+    for i in range(2, len(horses_strengths)):
+        act_dist = horses_strengths[i] - horses_strengths[i - 1]
         if act_dist < min_dist:
             min_dist = act_dist
 
